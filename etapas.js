@@ -5,18 +5,26 @@ let etapas = [
         candidatos: [
             {
                 numero: "77777",
-                nome: "Uzumaki Naruto",
-                partido: "UZUMAKI",
+                nome: "Piccolo",
+                partido: "Dragon Ball",
                 fotos: [
-                    { url: 'naruto_naruto.png', legenda: 'Vereador' }
+                    { url: 'dbz_piccolo.jpg', legenda: 'Vereador' }
                 ]
             },
             {
                 numero: "66666",
-                nome: "Uchiha Sasuke",
-                partido: "UCHIHA",
+                nome: "Ikki de Fênix",
+                partido: "Saint Seya",
                 fotos: [
-                    { url: 'naruto_sasuke.png', legenda: 'Vereador' }
+                    { url: 'cdz_ikki.jpg', legenda: 'Vereador' }
+                ]
+            },
+            {
+                numero: "88888",
+                nome: "Hatake Kakashi",
+                partido: "Naruto",
+                fotos: [
+                    { url: 'naruto_kakashi.png', legenda: 'Vereador' }
                 ]
             },
 
@@ -27,7 +35,18 @@ let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 77,
+                numero: '88',
+                nome: "Uzumaki Naruto",
+                partido: "Naruto",
+                Vice: "Uchiha Sasuke",
+                fotos: [
+                    { url: 'naruto_naruto.jpg', legenda: 'Prefeito' },
+                    { url: 'naruto_sasuke.jpg', legenda: 'Vice-Prefeito', small: true }
+                ]
+
+            },
+            {
+                numero: '77',
                 nome: "Son Goku",
                 partido: "Dragon Ball",
                 Vice: "Vegeta",
@@ -38,7 +57,7 @@ let etapas = [
 
             },
             {
-                numero: 66,
+                numero: '66',
                 nome: "Saori Kido",
                 partido: "Saint Seya",
                 vice: "Seya de Pegasus",
